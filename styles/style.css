@@ -1,18 +1,22 @@
-.highlight {
-  color: orange;
-}
-/* No space means this applies to aside tags that have a class of highlight */
-aside.highlight {
-  background-color: black;
-}
-#homepage {
-  width: 80%;
-  margin: auto;
-  border: 2px solid black;
-}
-/* margin auto centers things horizontally on a page */
-a:hover {
+h1:hover {
   color: red;
-  font-size: 2em;
 }
-/* changing font size 2em = changing it 200% */
+a:visited {
+  text-decoration: none;
+}
+header {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+article {
+  width: 60%
+    margin: auto;
+}
+p::first-letter {
+  font-size: 1.5em;
+}
+footer {
+  border: 2px solid magenta;
+  border-radius: 25px;
+}
