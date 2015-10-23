@@ -1,22 +1,13 @@
-h1:hover {
-  color: red;
+header img {
+  width: 15rem;
 }
-a:visited {
+/* a tag stuff works right because nav a is more specific than a */
+nav a {
+  text-decoration: line-through;
+}
+a {
   text-decoration: none;
 }
-header {
-  text-align: center;
-  width: 75%;
-  margin: auto;
-}
-article {
-  width: 60%
-    margin: auto;
-}
-p::first-letter {
-  font-size: 1.5em;
-}
-footer {
-  border: 2px solid magenta;
-  border-radius: 25px;
-}
+p { color: magenta; }
+p { color: orange;}
+/* p tags are orange because orange is more recent */
